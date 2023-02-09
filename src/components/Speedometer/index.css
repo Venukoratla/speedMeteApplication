@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.image {
+  height: 450px;
+  width: 600px;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.para {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.speed {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.statement {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.increase {
+  background-color: #0b69ff;
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+  border-width: 0px;
+  color: #ffffff;
+}
+.decrease {
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+  border-width: 2px;
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
